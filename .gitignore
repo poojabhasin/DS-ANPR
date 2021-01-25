@@ -1,32 +1,20 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Built binaries
 *.o
-*.obj
+ds-anpr-app
 
-# Precompiled Headers
-*.gch
-*.pch
+# vscode
+.vscode
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# TensorRT Engines
+*/*/*/*.engine
+*.engine
 
-# Fortran module files
-*.mod
-*.smod
+# Input sources
+inputsources.txt
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Extra files
+.Makefile.swp
+.cproject
+.metadata/
+.project
+RemoteSystemTempFiles/
