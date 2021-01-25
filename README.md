@@ -19,9 +19,11 @@ Automatic number-plate recognition is a technology that uses optical character r
 ## Introduction
 
 ANPR Application consists of two parts. An Intelligent Video Analytics Pipeline powered by Deepstream and NVIDIA Jetson Nano and an ANPR key which can  be generated through plate recognizer.
-Below is the link for generating the key.
+Below is the link for generating the key. 
 
 * https://app.platerecognizer.com/start/stream
+
+Note - Free-trial license supports 2500 lookups/month of Plate recognizer sanpshot API. Please keep in mind that free trial support 1 image per second.
 
 ## Deepstream Setup
 
