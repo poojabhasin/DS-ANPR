@@ -217,7 +217,7 @@ namespace ANPRDetection {
 
             ANPR() {
                 anpr_endpoint = "https://api.platerecognizer.com/v1/plate-reader/";
-                ANPR_KEY = "fcc57d82d9be84c9c51da3f5d69697b2819c87a7";
+                ANPR_KEY = "c4cc4d48ef32890f5e6e3a656aa827f9f4d15a0a";
                 crop_offset_x = 50;
                 crop_offset_y = 50;
             }
